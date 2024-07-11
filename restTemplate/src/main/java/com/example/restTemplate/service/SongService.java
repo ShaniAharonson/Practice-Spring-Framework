@@ -16,7 +16,7 @@ import java.util.List;
 public class SongService {
     private final RestTemplate restTemplate;
     private final YoutubeRepo youtubeRepo;
-    private String URL = "https://www.googleapis.com/youtube/v3/videos?part=snippet&key=AIzaSyB_rfFikBTjch9lqoaaLuqX_ETqsGGTvN8&id=";
+//    private String URL = "https://www.googleapis.com/youtube/v3/videos?part=snippet&key=AIzaSyB_rfFikBTjch9lqoaaLuqX_ETqsGGTvN8&id=";
 
     public YoutubeData getSongData(String id) throws JsonProcessingException {
         //check if we have the data already
